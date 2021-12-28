@@ -100,7 +100,7 @@ export const MenuItems = [
     type: "sub",
     title: '사업안내',
     subtitle: '2022년 중점사업',
-    path: '/group/international',
+    path: '/business/international',
     highlight: "",
   },
   {
