@@ -1,16 +1,29 @@
-html,
-body {
-  padding: 0;
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0;
+}
+
+/* @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css); */
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 a {
-  color: inherit;
   text-decoration: none;
+  color: black;
 }
 
-* {
-  box-sizing: border-box;
+.asdfasdf{
+  cursor: pointer;
+  width: 100%;
+}
+
+.asdf2{
+  margin-top:12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }

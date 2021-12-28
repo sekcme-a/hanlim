@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@500&display=swap');
+
+.navbar {
+  background-color: rgb(255, 255, 255);
+  height: 70px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  border-bottom: solid 1px rgba(63, 63, 63, 0.384);
+  font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+.navbar-logo {
+  width: 25%;
+  height: 56px;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: -5px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  padding: 6px 5px;
+  border-radius: 4px;
+  border-bottom: 5px solid white;
+}
+
+.nav-item:hover {
+  background-color: #ffe790;
+}
+
+.arrowdropdown {
+  margin-left: -3px;
+}
+
+.navbar-content {
+
+  display: grid;
+  grid-template-columns: repeat(10, auto);
+  grid-gap: 5px;
+  list-style: none;
+  text-align: center;
+  padding-right: 15vw;
+  width: 75%;
+  justify-content: end;
+  cursor: pointer;
+}
+
+.log-out {
+  background-color: #fceaac;
+  padding: 0px 10px;
+  font-size: 15px;
+  color: white;
+  transition: .5s;
+}
+
+.log-out:hover {
+  background-color: #4921a8;
+}
+
+/* .logo-text{
+  margin-top: 20px;
+  padding-left: 10px;
+} */
+
+
+
+
+
+
+
+.NavVerticalContainer {
+  width: 20%;
+  margin-left: 10px;
+  box-sizing: border-box;
+}
+
+.NavVertical {
+  margin-left: 12px;
+  margin-top: 50px;
+  font-family: 'Roboto', sans-serif;
+  border: 2px solid black;
+  border-radius: 6px;
+  background-color: white;
+  z-index: 100;
+}
+
+.NavVertical .navLoc {
+  font-size: 22px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #7a98d4;
+  border-bottom: 1px solid rgb(2, 78, 2);
+  border-radius: 3px;
+  height: 50px;
+  margin-top: -1px;
+}
+
+.NavVertical .navList {
+  margin-left: 15px;
+  margin-right: 15px;
+  list-style: none;
+}
+
+.NavVertical .navItem {
+  margin-top: 7px;
+  border-bottom: 1px solid rgb(1, 68, 1);
+}
+
+.NavVertical .navItem:last-child {
+  margin-bottom: 10px;
+}
+
+.NavVertical .navLink {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(0, 48, 0);
+  transition: .6s;
+  font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+  .NavVertical .navLink {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 680px) {
+  .NavVerticalContainer {
+    display: none;
+  }
+
+  .content-container {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .navbar {
+    font-size: 1rem
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .navbar-content {
+    padding-right: 0;
+  }
+}
